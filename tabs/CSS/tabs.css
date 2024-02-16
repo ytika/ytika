@@ -1,0 +1,523 @@
+body{
+    font-family: Arial;
+    background-color: #6f6666;
+    min-height: 130vh;
+}
+
+.nav{
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    background: #3C3633;
+    width: 396px;
+    float: center;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    display: block;
+}
+
+.ahref a{
+    text-decoration: none;
+    color: white;
+    padding: 22px;
+    transition: all 200ms ease;
+}
+
+.ahref a:hover{
+    transform: .2ms ease-in-out;
+    opacity: 0.7;
+}
+
+.home-main{
+    background-color: #443a3a;
+    width: 1230px;
+    height: 500px ;
+    position: absolute; bottom: 10px;
+    margin: 50px;
+    overflow: hidden;
+}
+
+.home-main-a{
+    margin: 50px;
+    font-size: 40px;
+}
+
+.home-main-a a{
+    text-decoration: none;
+    color: white;
+    transition: all 200ms ease;
+    opacity: 1;
+    color: whitesmoke;
+}
+
+.home-main-a a:hover{
+    transform: scale(10.50) .2s ease-in-out;
+    opacity: 0.5;
+}
+
+.home-main-text{
+    color: white;
+    margin: 50px;
+}
+
+.home-footer{
+    position: absolute; left: 0px; bottom: 0px;
+    width: 100%;
+    height: 150px;
+    background-color: #3C3633;
+    position: absolute; top: 130vh;
+}
+
+.home-footer p{
+    margin-top: 50px;
+    margin-left: 50px;
+    color: white;
+    font-size: 19px;
+}
+
+.home-footer-a a{
+    text-decoration: none;
+    color: white;
+    display: inline-flex;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+
+.img img{
+    width: 200px;
+}
+
+.img{
+    position: absolute; left: 590px; bottom: 10px;
+}
+
+.img2{
+    position: absolute; left: 700px; bottom: 100px;
+}
+
+.img3{
+    position: absolute; left: 750px; bottom: 10px;
+}
+
+.img4{
+    position: absolute; left: 880px; bottom: 260px; 
+}
+
+.img5{
+    position: absolute; left: 900px; bottom: 120px;
+}
+
+.article1-container{
+    background-color: #443a3a;
+    width: 325px;
+    height: 400px;
+    padding: 10px;
+    color: whitesmoke;
+    overflow: hidden;
+    position: absolute; left: 120px; top: 150px;
+    transition: all 200ms ease;
+}
+
+.a1name{
+ margin: 10px;
+}
+
+.a1text{
+    margin: 10px;
+    margin-top: 50px;
+    width: 300  px;
+}
+
+.a1img img{
+    width: 350px;
+}
+
+.a1img{
+    position: absolute; left: 0px; bottom: -10px;
+    overflow: hidden;
+}
+
+.article1-container:hover{
+    transform: scale(1.05);
+}
+
+.article2-container{
+    background-color: #443a3a;
+    width: 325px;
+    height: 400px;
+    padding: 10px;
+    color: whitesmoke;
+    overflow: hidden;
+    position: absolute; left: 500px; top: 150px;
+    transition: all 200ms ease;
+}
+
+.a2name{
+ margin: 10px;
+}
+
+.a2text{
+    margin: 10px;
+    margin-top: 50px;
+    width: 300  px;
+}
+
+.a2img img{
+    width: 350px;
+}
+
+.a2img{
+    position: absolute; left: 0px; bottom: -10px;
+    overflow: hidden;
+}
+
+.article2-container:hover{
+    transform: scale(1.05);
+}
+
+.article3-container{
+    background-color: #443a3a;
+    width: 325px;
+    height: 400px;
+    padding: 10px;
+    color: whitesmoke;
+    overflow: hidden;
+    position: absolute; left: 880px; top: 150px;
+    transition: all 200ms ease;
+}
+
+.a3name{
+ margin: 10px;
+}
+
+.a3text{
+    margin: 10px;
+    margin-top: 50px;
+    width: 300  px;
+}
+
+.a3img img{
+    width: 350px;
+    height: 200px;
+}
+
+.a3img{
+    position: absolute; left: 0px; bottom: -10px;
+    overflow: hidden;
+}
+
+.article3-container:hover{
+    transform: scale(1.05);
+}
+
+.aside1{
+    position: fixed; left: 1071px; top: 115px;
+    background-color: #443a3a;
+    width: 300px;
+    height: 400px;
+    color: white;
+}
+
+.BWP-pushup{
+    background-color: #443a3a;
+    width: 950px;
+    margin: 50px;
+    padding: 1px;
+    color: white;
+}
+
+.BWP-pushup-name{
+    margin: 40px;
+    font-size: 35px;
+}
+
+.BWP-pushup-content{
+    margin: 40px;
+}
+
+.BWP-pushup-howto{
+    font-size: 25px;
+}
+
+.BWP-pushup-howto-text{
+    font-size: 17px;
+}
+
+.BWP-pushup-benefits{
+    font-size: 25px;
+}
+
+.BWP-pushup-benefits p{
+    font-size: 17px;
+}
+
+.nav .ahref .active1{
+    opacity: 0.5;
+    transition: all 200ms ease;
+}
+
+.nav .ahref .active2{
+    opacity: 0.5;
+    transition: all 200ms ease;
+}
+
+.nav .ahref .active3{
+    opacity: 0.5;
+    transition: all 200ms ease;
+}
+
+.nav .ahref .active4{
+    opacity: 0.5;
+    transition: all 200ms ease;
+}
+
+.aside1name{
+    margin: 30px;
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+.aside1list{
+    margin-bottom: 20px;
+}
+
+.BWP-plank{
+    background-color: #443a3a;
+    width: 950px;
+    margin: 50px;
+    padding: 1px;
+    color: white;
+    position: absolute; top: 1000px;
+}
+
+.BWP-plank-name{
+    margin: 40px;
+    font-size: 35px;
+}
+
+.BWP-plank-content{
+    margin: 40px;
+}
+
+.BWP-plank-howto{
+    font-size: 25px;
+}
+
+.BWP-plank-howto-text{
+    font-size: 17px;
+}
+
+.BWP-plank-benefits{
+    font-size: 25px;
+}
+
+.BWP-plank-benefits p{
+    font-size: 17px;
+}
+
+.BWP-lsit{
+    background-color: #443a3a;
+    width: 950px;
+    margin: 50px;
+    padding: 1px;
+    color: white;
+    position: absolute; top: 1644px;
+}
+
+.BWP-lsit-name{
+    margin: 40px;
+    font-size: 35px;
+}
+
+.BWP-lsit-content{
+    margin: 40px;
+}
+
+.BWP-lsit-howto{
+    font-size: 25px;
+}
+
+.BWP-lsit-howto-text{
+    font-size: 17px;
+}
+
+.BWP-lsit-benefits{
+    font-size: 25px;
+}
+
+.BWP-lsit-benefits p{
+    font-size: 17px;
+}
+
+.BWP-hands{
+    background-color: #443a3a;
+    width: 950px;
+    margin: 50px;
+    padding: 1px;
+    color: white;
+    position: absolute; top: 2305px;
+}
+
+.BWP-hands-name{
+    margin: 40px;
+    font-size: 35px;
+}
+
+.BWP-hands-content{
+    margin: 40px;
+}
+
+.BWP-hands-howto{
+    font-size: 25px;
+}
+
+.BWP-hands-howto-text{
+    font-size: 17px;
+}
+
+.BWP-hands-benefits{
+    font-size: 25px;
+}
+
+.BWP-hands-benefits p{
+    font-size: 17px;
+}
+
+.BWP-chinup{
+    background-color: #443a3a;
+    width: 950px;
+    margin: 50px;
+    padding: 1px;
+    color: white;
+    position: absolute; top: 3264px;
+}
+
+.BWP-chinup-name{
+    margin: 40px;
+    font-size: 35px;
+}
+
+.BWP-chinup-content{
+    margin: 40px;
+}
+
+.BWP-chinup-howto{
+    font-size: 25px;
+}
+
+.BWP-chinup-howto-text{
+    font-size: 17px;
+}
+
+.BWP-chinup-benefits{
+    font-size: 25px;
+}
+
+.BWP-chinup-benefits p{
+    font-size: 17px;
+}
+
+.BWP-pistolq{
+    background-color: #443a3a;
+    width: 950px;
+    margin: 50px;
+    padding: 1px;
+    color: white;
+    position: absolute; top: 3886px;
+}
+
+.BWP-pistolq-name{
+    margin: 40px;
+    font-size: 35px;
+}
+
+.BWP-pistolq-content{
+    margin: 40px;
+}
+
+.BWP-pistolq-howto{
+    font-size: 25px;
+}
+
+.BWP-pistolq-howto-text{
+    font-size: 17px;
+}
+
+.BWP-pistolq-benefits{
+    font-size: 25px;
+}
+
+.BWP-pistolq-benefits p{
+    font-size: 17px;
+}
+
+.caloricsurplus{
+    width: 300px;
+    height: 450px;
+    background-color: #443a3a;
+    color: white;
+    padding-left: 27px;
+    padding-top: 1px;
+    position: absolute; left: 300px; top: 150px;
+    overflow: hidden;
+    transition: all 200ms ease-in-out;
+}
+
+.caloricsurplus:hover{
+    transform: scale(1.05);
+}
+
+.caloricsurplus-name-text h3{
+    font-size: 25px;
+}
+
+.caloricsurplus-name-text p{
+    font-size: 17px;
+    padding-top: 35px;
+}
+
+.caloricsurplus-img{
+    position: relative; top: 120px; left: -27px;
+    padding: 0px;
+}
+
+.caloricsurplus-img img{
+    width: 330px;
+}
+
+.caloricdeficit{
+    width: 300px;
+    height: 450px;
+    background-color: #443a3a;
+    color: white;
+    padding-left: 27px;
+    padding-top: 1px;
+    position: absolute; left: 700px; top: 150px;
+    overflow: hidden;
+    transition: all 200ms ease-in-out;
+}
+
+.caloricdeficit:hover{
+    transform: scale(1.05);
+}
+
+.caloricdeficit-name-text h3{
+    font-size: 25px;
+}
+
+.caloricdeficit-name-text p{
+    font-size: 17px;
+    padding-top: 35px;
+}
+
+.caloricdeficit-img{
+    position: relative; top: 120px; left: -27px;
+    padding: 0px;
+}
+
+.caloricdeficit-img img{
+    width: 330px;
+    height: 170px;
+}
